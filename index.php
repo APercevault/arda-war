@@ -5,10 +5,11 @@ $app->register(new Csanquer\Silex\PdoServiceProvider\Provider\PDOServiceProvider
                array(
                 'pdo.server' => array(
                    'driver'   => 'pgsql',
-                   'user' => $dbopts["user"],
-                   'password' => $dbopts["pass"],
-                   'host' => $dbopts["host"],
-                   'port' => $dbopts["port"],
+                   'user' => $dbopts["khfcstkveeyuai"],
+                   'password' => $dbopts["83266405a0e788ec4deb36dec675e71aac5ea904bf18719953e563135de1c99e"],
+                   'host' => $dbopts["ec2-34-238-26-109.compute-1.amazonaws.com
+                   "],
+                   'port' => $dbopts["5432"],
                    'dbname' => ltrim($dbopts["path"],'/')
                    )
                )
