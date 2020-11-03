@@ -1,0 +1,63 @@
+loterie fonctionnel (bonus ( 24 ) ) sur 24h pour chaque planete. Pour le moment elle te donne  les ressources journaliere de tes mines en plus
+je vais y ajouter les officiers en jackpot (genre tous les officiers pour une semaine 1 chance sur 300 de gagner, 
+sachant que chaque planete peut gagner. Donc: si tu as 10 planetes 300/10= 30% de chance)
+Si tu recupere les fichiers: dans la BDD tu fait la requete SQL
+
+ALTER TABLE xxxx_planets ADD dailybonus int (11) NOT NULL ;
+
+change les xxxx par le prefixe de ta table
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+les fichiers sont a recuperer dans : "Xnovafull.rar" EN PREMIERE PAGE TELECHARGEMENT XNOVA sur kcommunauty
+
+--->styles\templates\bonus\bonus_24.tpl
+--->includes\pages\class.ShowBonus24Page.php
+--->sytles\theme\gultre\adds\bonus24.jpg
+--->sytles\theme\voltra\adds\bonus24.jpg
+
+fichiers a modifier:
+dans left_menu.tpl
+mettre:
+{if $bonus == 1}			
+  		<li class="arriba_menu">
+		<span class="menu_icon">
+		<img width="38" height="29" src="./styles/theme/{$Raza_skin}/imagenes/navegacion/menu_icon.png">
+        </span>
+		<a class="menu_boton_2 " href="?page=bonus24"><span class="mercader_menu1" id="bl" style="visibility:visible">{$lm_bonus24}</span></a>
+		</li>
+		<a>
+		
+{/if}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+dans game.php
+mettre:
+	case 'bonus24':
+			include_once(ROOT_PATH . 'includes/pages/class.ShowBonus24Page.php');
+			$bonus2 = 2;
+		ShowBonus24Page();
+		
+	break;
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+class.template.php
+
+chercher:
+
+		$this->assign_vars(array(
+		
+		'rs_heure'			=>$LNG['rs_heure'],
+		'plani_soldat'					=> $plani_soldat,	
+		'time_plani'					=> $time_plani,
+
+mettre dessus :
+
+//bonus 24h
+$bonus = 0 ;
+if($PLANET['dailybonus'] < TIMESTAMP){
+$bonus = 1 ;}	
+
+mettre dessous $this->assign_vars(array(
+
+//bonus 24h
+'bonus'					=>$bonus,
+'lm_bonus24'			=>$LNG['lm_bonus24'],
+
+

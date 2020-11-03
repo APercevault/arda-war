@@ -1,0 +1,7 @@
+[16-Dec-2017 13:01:37 UTC] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) in /home/desti346/public_html/xnova/game.php on line 36
+[16-Dec-2017 13:01:40 UTC] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) in /home/desti346/public_html/xnova/game.php on line 36
+[16-Dec-2017 13:01:43 UTC] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) in /home/desti346/public_html/xnova/game.php on line 36
+[16-Dec-2017 13:01:53 UTC] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) in /home/desti346/public_html/xnova/game.php on line 36
+[16-Dec-2017 13:02:22 UTC] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) in /home/desti346/public_html/xnova/game.php on line 36
+[16-Dec-2017 13:03:42 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '{' in /home/desti346/public_html/xnova/game.php on line 36
+[05-Feb-2018 20:19:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/desti346/public_html/xnova/includes/constants.php on line 235

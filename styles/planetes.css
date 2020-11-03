@@ -1,0 +1,585 @@
+
+
+/*/////////////////////////////galaxyPlanets1///////////////////////////////*/
+
+#galaxyPlanets1 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets1 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets1 .planet1 {width: 70px;height: 70px;position: absolute;top: 200px;left:320px;}
+#galaxyPlanets1 .planet2 {width: 70px;height: 70px;position: absolute;top: 90px;left: 270px;}
+#galaxyPlanets1 .planet3 {width: 70px;height: 70px;position: absolute;top:  132px;left: 560px;}
+#galaxyPlanets1 .planet4 {width: 70px;height: 70px;position: absolute;top: 50px;left: 390px;}
+#galaxyPlanets1 .planet5 {width: 70px;height: 70px;position: absolute;top: 15px;left: 500px;}
+#galaxyPlanets1 .planet6 {width: 70px;height: 70px;position: absolute;top: 290px;left: 510px;}
+#galaxyPlanets1 .planet7 {width: 70px;height: 70px;position: absolute;top: 200px;left: 780px;}
+#galaxyPlanets1 .planet8 {width: 70px;height: 70px;position: absolute;top: 60px;left: 770px;}
+#galaxyPlanets1 .planet9 {width: 70px;height: 70px;position: absolute;top: 226px;left: 890px;}
+#galaxyPlanets1 .planet10 {width: 70px;height: 70px;position: absolute;top: 220px;left: 150px;}
+#galaxyPlanets1 .planet11 {width: 70px;height: 70px;position: absolute;top: 20px;left: 190px;}
+#galaxyPlanets1 .planet12 {width: 70px;height: 70px;position: absolute;top: 300px;left: 675px;}
+#galaxyPlanets1 .planet13 {width: 70px;height: 70px;position: absolute;top: 305px;left: 400px;}
+#galaxyPlanets1 .planet14 {width: 70px;height: 70px;position: absolute;top: 90px;left: 80px;}
+#galaxyPlanets1 .planet15 {width: 70px;height: 70px;position: absolute;top: 245px;left: 20px;}
+#galaxyPlanets1 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets1 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets1 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets1 .planet a,
+#galaxyPlanets1 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets1 .empty a span.planetNumber {display: none;}
+#galaxyPlanets1 .planet span.planetNumber,
+#galaxyPlanets1 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets1 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets2///////////////////////////////*/
+
+#galaxyPlanets2 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets2 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets2 .planet1 {width: 70px;height: 70px;position: absolute;top: 240px;left:472px;}
+#galaxyPlanets2 .planet2 {width: 70px;height: 70px;position: absolute;top: 183px;left: 300px;}
+#galaxyPlanets2 .planet3 {width: 70px;height: 70px;position: absolute;top:  57px;left: 288px;}
+#galaxyPlanets2 .planet4 {width: 70px;height: 70px;position: absolute;top: 65px;left: 555px;}
+#galaxyPlanets2 .planet5 {width: 70px;height: 70px;position: absolute;top: 175px;left: 640px;}
+#galaxyPlanets2 .planet6 {width: 70px;height: 70px;position: absolute;top: 25px;left: 400px;}
+#galaxyPlanets2 .planet7 {width: 70px;height: 70px;position: absolute;top: 225px;left: 792px;}
+#galaxyPlanets2 .planet8 {width: 70px;height: 70px;position: absolute;top: 300px;left: 622px;}
+#galaxyPlanets2 .planet9 {width: 70px;height: 70px;position: absolute;top: 224px;left: 160px;}
+#galaxyPlanets2 .planet10 {width: 70px;height: 70px;position: absolute;top: 60px;left: 150px;}
+#galaxyPlanets2 .planet11 {width: 70px;height: 70px;position: absolute;top: 20px;left: 690px;}
+#galaxyPlanets2 .planet12 {width: 70px;height: 70px;position: absolute;top: 300px;left: 375px;}
+#galaxyPlanets2 .planet13 {width: 70px;height: 70px;position: absolute;top: 170px;left: 10px;}
+#galaxyPlanets2 .planet14 {width: 70px;height: 70px;position: absolute;top: 329px;left: 234px;}
+#galaxyPlanets2 .planet15 {width: 70px;height: 70px;position: absolute;top: 150px;left: 940px;}
+#galaxyPlanets2 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets2 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets2 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets2 .planet a,
+#galaxyPlanets2 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets2 .empty a span.planetNumber {display: none;}
+#galaxyPlanets2 .planet span.planetNumber,
+#galaxyPlanets2 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets2 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*//////////////////////////galaxyPlanets3//////////////////////////////////*/
+
+#galaxyPlanets3 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets3 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets3 .planet1 {width: 70px;height: 70px;position: absolute;top: 54px;left:357px;}
+#galaxyPlanets3 .planet2 {width: 70px;height: 70px;position: absolute;top: 43px;left: 492px;;}
+#galaxyPlanets3 .planet3 {width: 70px;height: 70px;position: absolute;top:  157px;left: 288px;}
+#galaxyPlanets3 .planet4 {width: 70px;height: 70px;position: absolute;top: 181px;left: 590px;}
+#galaxyPlanets3 .planet5 {width: 70px;height: 70px;position: absolute;top: 251px;left: 403px;}
+#galaxyPlanets3 .planet6 {width: 70px;height: 70px;position: absolute;top: 72px;left: 632px;}
+#galaxyPlanets3 .planet7 {width: 70px;height: 70px;position: absolute;top: 302px;left: 552px;}
+#galaxyPlanets3 .planet8 {width: 70px;height: 70px;position: absolute;top: 231px;left: 170px;}
+#galaxyPlanets3 .planet9 {width: 70px;height: 70px;position: absolute;top: 91px;left: 130px;}
+#galaxyPlanets3 .planet10 {width: 70px;height: 70px;position: absolute;top: 30px;left: 750px;}
+#galaxyPlanets3 .planet11 {width: 70px;height: 70px;position: absolute;top: 314px;left: 288px;}
+#galaxyPlanets3 .planet12 {width: 70px;height: 70px;position: absolute;top: 150px;left: 30px;}
+#galaxyPlanets3 .planet13 {width: 70px;height: 70px;position: absolute;top: 257px;left: 850px;}
+#galaxyPlanets3 .planet14 {width: 70px;height: 70px;position: absolute;top: 0px;left: 234px;}
+#galaxyPlanets3 .planet15 {width: 70px;height: 70px;position: absolute;top: 80px;left: 900px;}
+#galaxyPlanets3 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets3 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets3 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets3 .planet a,
+#galaxyPlanets3 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets3 .empty a span.planetNumber {display: none;}
+#galaxyPlanets3 .planet span.planetNumber,
+#galaxyPlanets3 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets3 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*//////////////////////////##galaxyPlanets4//////////////////////////////////*/
+
+#galaxyPlanets4 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets4 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets4 .planet1 {width: 70px;height: 70px;position: absolute;top: 54px;left:477px;}
+#galaxyPlanets4 .planet2 {width: 70px;height: 70px;position: absolute;top: 173px;left: 568px;;}
+#galaxyPlanets4 .planet3 {width: 70px;height: 70px;position: absolute;top:  281px;left: 515px;}
+#galaxyPlanets4 .planet4 {width: 70px;height: 70px;position: absolute;top: 271px;left: 345px;}
+#galaxyPlanets4 .planet5 {width: 70px;height: 70px;position: absolute;top: 157px;left: 292px;}
+#galaxyPlanets4 .planet6 {width: 70px;height: 70px;position: absolute;top: 137px;left: 731px;}
+#galaxyPlanets4 .planet7 {width: 70px;height: 70px;position: absolute;top: 30px;left: 314px;}
+#galaxyPlanets4 .planet8 {width: 70px;height: 70px;position: absolute;top: 91px;left: 130px;}
+#galaxyPlanets4 .planet9 {width: 70px;height: 70px;position: absolute;top: 222px;left: 120px;}
+#galaxyPlanets4 .planet10 {width: 70px;height: 70px;position: absolute;top: 334px;left: 250px;}
+#galaxyPlanets4 .planet11 {width: 70px;height: 70px;position: absolute;top: 254px;left: 758px;}
+#galaxyPlanets4 .planet12 {width: 70px;height: 70px;position: absolute;top: 186px;left: 902px;}
+#galaxyPlanets4 .planet13 {width: 70px;height: 70px;position: absolute;top: 0px;left: 213px;}
+#galaxyPlanets4 .planet14 {width: 70px;height: 70px;position: absolute;top: 322px;left: 650px;}
+#galaxyPlanets4 .planet15 {width: 70px;height: 70px;position: absolute;top: -30px;left: 394px;}
+#galaxyPlanets4 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets4 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets4 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets4 .planet a,
+#galaxyPlanets4 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets4 .empty a span.planetNumber {display: none;}
+#galaxyPlanets4 .planet span.planetNumber,
+#galaxyPlanets4 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets4 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets5///////////////////////////////*/
+
+#galaxyPlanets5 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets5 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets5 .planet1 {width: 70px;height: 70px;position: absolute;top: 50px;left:491px;}
+#galaxyPlanets5 .planet2 {width: 70px;height: 70px;position: absolute;top: 65px;left: 325px;}
+#galaxyPlanets5 .planet3 {width: 70px;height: 70px;position: absolute;top:  99px;left: 641px;}
+#galaxyPlanets5 .planet4 {width: 70px;height: 70px;position: absolute;top: 196px;left: 280px;}
+#galaxyPlanets5 .planet5 {width: 70px;height: 70px;position: absolute;top: 225px;left: 557px;}
+#galaxyPlanets5 .planet6 {width: 70px;height: 70px;position: absolute;top: -10px;left: 395px;}
+#galaxyPlanets5 .planet7 {width: 70px;height: 70px;position: absolute;top: 131px;left: 135px;}
+#galaxyPlanets5 .planet8 {width: 70px;height: 70px;position: absolute;top: 140px;left: 770px;}
+#galaxyPlanets5 .planet9 {width: 70px;height: 70px;position: absolute;top: 316px;left: 350px;}
+#galaxyPlanets5 .planet10 {width: 70px;height: 70px;position: absolute;top: 321px;left: 603px;}
+#galaxyPlanets5 .planet11 {width: 70px;height: 70px;position: absolute;top: 18px;left: 181px;}
+#galaxyPlanets5 .planet12 {width: 70px;height: 70px;position: absolute;top: 3px;left: 672px;}
+#galaxyPlanets5 .planet13 {width: 70px;height: 70px;position: absolute;top: 246px;left: 19px;}
+#galaxyPlanets5 .planet14 {width: 70px;height: 70px;position: absolute;top: 150px;left: 911px;}
+#galaxyPlanets5 .planet15 {width: 70px;height: 70px;position: absolute;top: 317px;left: 751px;}
+#galaxyPlanets5 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets5 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets5 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets5 .planet a,
+#galaxyPlanets5 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets5 .empty a span.planetNumber {display: none;}
+#galaxyPlanets5 .planet span.planetNumber,
+#galaxyPlanets5 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets5 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets6///////////////////////////////*/
+
+#galaxyPlanets6 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets6 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets6 .planet1 {width: 70px;height: 70px;position: absolute;top: 95px;left:580px;}
+#galaxyPlanets6 .planet2 {width: 70px;height: 70px;position: absolute;top: 185px;left: 305px;}
+#galaxyPlanets6 .planet3 {width: 70px;height: 70px;position: absolute;top:  95px;left: 350px;}
+#galaxyPlanets6 .planet4 {width: 70px;height: 70px;position: absolute;top: 240px;left: 470px;}
+#galaxyPlanets6 .planet5 {width: 70px;height: 70px;position: absolute;top: 231px;left: 601px;}
+#galaxyPlanets6 .planet6 {width: 70px;height: 70px;position: absolute;top: 58px;left: 710px;}
+#galaxyPlanets6 .planet7 {width: 70px;height: 70px;position: absolute;top: 300px;left: 380px;}
+#galaxyPlanets6 .planet8 {width: 70px;height: 70px;position: absolute;top: 180px;left: 732px;}
+#galaxyPlanets6 .planet9 {width: 70px;height: 70px;position: absolute;top: 316px;left: 590px;}
+#galaxyPlanets6 .planet10 {width: 70px;height: 70px;position: absolute;top: 55px;left: 210px;}
+#galaxyPlanets6 .planet11 {width: 70px;height: 70px;position: absolute;top: -10px;left: 413px;}
+#galaxyPlanets6 .planet12 {width: 70px;height: 70px;position: absolute;top: 92px;left: 62px;}
+#galaxyPlanets6 .planet13 {width: 70px;height: 70px;position: absolute;top: 230px;left: 62px;}
+#galaxyPlanets6 .planet14 {width: 70px;height: 70px;position: absolute;top: 350px;left: 265px;}
+#galaxyPlanets6 .planet15 {width: 70px;height: 70px;position: absolute;top: 184px;left: 880px;}
+#galaxyPlanets6 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets6 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets6 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets6 .planet a,
+#galaxyPlanets6 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets6 .empty a span.planetNumber {display: none;}
+#galaxyPlanets6 .planet span.planetNumber,
+#galaxyPlanets6 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets6 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets7///////////////////////////////*/
+
+#galaxyPlanets7 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets7 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets7 .planet1 {width: 70px;height: 70px;position: absolute;top: 171px;left:620px;}
+#galaxyPlanets7 .planet2 {width: 70px;height: 70px;position: absolute;top: 215px;left: 370px;}
+#galaxyPlanets7 .planet3 {width: 70px;height: 70px;position: absolute;top:  125px;left: 300px;}
+#galaxyPlanets7 .planet4 {width: 70px;height: 70px;position: absolute;top: 55px;left: 477px;}
+#galaxyPlanets7 .planet5 {width: 70px;height: 70px;position: absolute;top: 260px;left: 540px;}
+#galaxyPlanets7 .planet6 {width: 70px;height: 70px;position: absolute;top: 290px;left: 676px;}
+#galaxyPlanets7 .planet7 {width: 70px;height: 70px;position: absolute;top: 95px;left: 720px;}
+#galaxyPlanets7 .planet8 {width: 70px;height: 70px;position: absolute;top: 171px;left: 175px;}
+#galaxyPlanets7 .planet9 {width: 70px;height: 70px;position: absolute;top: 18px;left: 602px;}
+#galaxyPlanets7 .planet10 {width: 70px;height: 70px;position: absolute;top: 280px;left: 250px;}
+#galaxyPlanets7 .planet11 {width: 70px;height: 70px;position: absolute;top: 280px;left: 840px;}
+#galaxyPlanets7 .planet12 {width: 70px;height: 70px;position: absolute;top: 0x;left: 300px;}
+#galaxyPlanets7 .planet13 {width: 70px;height: 70px;position: absolute;top: 150px;left: 875px;}
+#galaxyPlanets7 .planet14 {width: 70px;height: 70px;position: absolute;top: 255;left: 50px;}
+#galaxyPlanets7 .planet15 {width: 70px;height: 70px;position: absolute;top: 105px;left: 20px;}
+#galaxyPlanets7 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets7 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets7 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets7 .planet a,
+#galaxyPlanets7 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets7 .empty a span.planetNumber {display: none;}
+#galaxyPlanets7 .planet span.planetNumber,
+#galaxyPlanets7 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets7 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets8///////////////////////////////*/
+
+#galaxyPlanets8 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets8 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets8 .planet1 {width: 70px;height: 70px;position: absolute;top: 210px;left:558px;}
+#galaxyPlanets8 .planet2 {width: 70px;height: 70px;position: absolute;top: 238px;left: 390px;}
+#galaxyPlanets8 .planet3 {width: 70px;height: 70px;position: absolute;top:  59px;left: 373px;}
+#galaxyPlanets8 .planet4 {width: 70px;height: 70px;position: absolute;top: 166px;left: 290px;}
+#galaxyPlanets8 .planet5 {width: 70px;height: 70px;position: absolute;top: 98px;left: 580px;}
+#galaxyPlanets8 .planet6 {width: 70px;height: 70px;position: absolute;top: 250px;left: 210px;}
+#galaxyPlanets8 .planet7 {width: 70px;height: 70px;position: absolute;top: 50px;left: 252px;}
+#galaxyPlanets8 .planet8 {width: 70px;height: 70px;position: absolute;top: 00px;left: 489px;}
+#galaxyPlanets8 .planet9 {width: 70px;height: 70px;position: absolute;top: 226px;left: 790px;}
+#galaxyPlanets8 .planet10 {width: 70px;height: 70px;position: absolute;top: 130px;left: 120px;}
+#galaxyPlanets8 .planet11 {width: 70px;height: 70px;position: absolute;top: 275px;left: 80px;}
+#galaxyPlanets8 .planet12 {width: 70px;height: 70px;position: absolute;top: 140px;left: -10px;}
+#galaxyPlanets8 .planet13 {width: 70px;height: 70px;position: absolute;top: 30px;left: 780px;}
+#galaxyPlanets8 .planet14 {width: 70px;height: 70px;position: absolute;top: 360px;left: 510px;}
+#galaxyPlanets8 .planet15 {width: 70px;height: 70px;position: absolute;top: 143px;left: 850px;}
+#galaxyPlanets8 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets8 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets8 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets8 .planet a,
+#galaxyPlanets8 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets8 .empty a span.planetNumber {display: none;}
+#galaxyPlanets8 .planet span.planetNumber,
+#galaxyPlanets8 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets8 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets9///////////////////////////////*/
+
+#galaxyPlanets9 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets9 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets9 .planet1 {width: 70px;height: 70px;position: absolute;top: 250px;left:470px;}
+#galaxyPlanets9 .planet2 {width: 70px;height: 70px;position: absolute;top: 200px;left: 620px;}
+#galaxyPlanets9 .planet3 {width: 70px;height: 70px;position: absolute;top:  195px;left: 285px;}
+#galaxyPlanets9 .planet4 {width: 70px;height: 70px;position: absolute;top: 40px;left: 397px;}
+#galaxyPlanets9 .planet5 {width: 70px;height: 70px;position: absolute;top: 75px;left: 560px;}
+#galaxyPlanets9 .planet6 {width: 70px;height: 70px;position: absolute;top: 40px;left: 250px;}
+#galaxyPlanets9 .planet7 {width: 70px;height: 70px;position: absolute;top: 220px;left: 150px;}
+#galaxyPlanets9 .planet8 {width: 70px;height: 70px;position: absolute;top: 87px;left: 152px;}
+#galaxyPlanets9 .planet9 {width: 70px;height: 70px;position: absolute;top: 350px;left: 300px;}
+#galaxyPlanets9 .planet10 {width: 70px;height: 70px;position: absolute;top: 295px;left: 690px;}
+#galaxyPlanets9 .planet11 {width: 70px;height: 70px;position: absolute;top: 150px;left: 0px;}
+#galaxyPlanets9 .planet12 {width: 70px;height: 70px;position: absolute;top: 80px;left: 810px;}
+#galaxyPlanets9 .planet13 {width: 70px;height: 70px;position: absolute;top: 230px;left: 810px;}
+#galaxyPlanets9 .planet14 {width: 70px;height: 70px;position: absolute;top: 361px;left: 467px;}
+#galaxyPlanets9 .planet15 {width: 70px;height: 70px;position: absolute;top: -10px;left: 620px;}
+#galaxyPlanets9 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets9 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets9 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets9 .planet a,
+#galaxyPlanets9 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets9 .empty a span.planetNumber {display: none;}
+#galaxyPlanets9 .planet span.planetNumber,
+#galaxyPlanets9 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets9 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+
+/*/////////////////////////////galaxyPlanets10///////////////////////////////*/
+
+#galaxyPlanets10 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets10 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets10 .planet1 {width: 70px;height: 70px;position: absolute;top: 158px;left:320px;}
+#galaxyPlanets10 .planet2 {width: 70px;height: 70px;position: absolute;top: 178px;left: 570px;}
+#galaxyPlanets10 .planet3 {width: 70px;height: 70px;position: absolute;top:  245px;left: 420px;}
+#galaxyPlanets10 .planet4 {width: 70px;height: 70px;position: absolute;top: 50px;left: 350px;}
+#galaxyPlanets10 .planet5 {width: 70px;height: 70px;position: absolute;top: 45px;left: 530px;}
+#galaxyPlanets10 .planet6 {width: 70px;height: 70px;position: absolute;top: -20px;left: 430px;}
+#galaxyPlanets10 .planet7 {width: 70px;height: 70px;position: absolute;top: 290px;left: 231px;}
+#galaxyPlanets10 .planet8 {width: 70px;height: 70px;position: absolute;top: 101px;left: 170px;}
+#galaxyPlanets10 .planet9 {width: 70px;height: 70px;position: absolute;top: 317px;left: 352px;}
+#galaxyPlanets10 .planet10 {width: 70px;height: 70px;position: absolute;top: 300px;left: 669px;}
+#galaxyPlanets10 .planet11 {width: 70px;height: 70px;position: absolute;top: 00px;left: 190px;}
+#galaxyPlanets10 .planet12 {width: 70px;height: 70px;position: absolute;top: 300px;left: 795px;}
+#galaxyPlanets10 .planet13 {width: 70px;height: 70px;position: absolute;top: 285px;left: 50px;}
+#galaxyPlanets10 .planet14 {width: 70px;height: 70px;position: absolute;top: 90px;left: 780px;}
+#galaxyPlanets10 .planet15 {width: 70px;height: 70px;position: absolute;top: 45px;left: 40px;}
+#galaxyPlanets10 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets10 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets10 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets10 .planet a,
+#galaxyPlanets10 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets10 .empty a span.planetNumber {display: none;}
+#galaxyPlanets10 .planet span.planetNumber,
+#galaxyPlanets10 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets10 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets11///////////////////////////////*/
+
+#galaxyPlanets11 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets11 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets11 .planet1 {width: 70px;height: 70px;position: absolute;top: 200px;left:300px;}
+#galaxyPlanets11 .planet2 {width: 70px;height: 70px;position: absolute;top: 90px;left: 500px;}
+#galaxyPlanets11 .planet3 {width: 70px;height: 70px;position: absolute;top:  192px;left: 560px;}
+#galaxyPlanets11 .planet4 {width: 70px;height: 70px;position: absolute;top: 80px;left: 330px;}
+#galaxyPlanets11 .planet5 {width: 70px;height: 70px;position: absolute;top: 225px;left: 452px;}
+#galaxyPlanets11 .planet6 {width: 70px;height: 70px;position: absolute;top: 67px;left: 670px;}
+#galaxyPlanets11 .planet7 {width: 70px;height: 70px;position: absolute;top: 336px;left: 500px;}
+#galaxyPlanets11 .planet8 {width: 70px;height: 70px;position: absolute;top: 177px;left: 734px;}
+#galaxyPlanets11 .planet9 {width: 70px;height: 70px;position: absolute;top: -20px;left: 413px;}
+#galaxyPlanets11 .planet10 {width: 70px;height: 70px;position: absolute;top: 211px;left: 150px;}
+#galaxyPlanets11 .planet11 {width: 70px;height: 70px;position: absolute;top: 99px;left: 88px;}
+#galaxyPlanets11 .planet12 {width: 70px;height: 70px;position: absolute;top: 91px;left: 825px;}
+#galaxyPlanets11 .planet13 {width: 70px;height: 70px;position: absolute;top: -17px;left: 565px;}
+#galaxyPlanets11 .planet14 {width: 70px;height: 70px;position: absolute;top: 226px;left: 31px;}
+#galaxyPlanets11 .planet15 {width: 70px;height: 70px;position: absolute;top: 285px;left: 820px;}
+#galaxyPlanets11 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets11 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets11 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets11 .planet a,
+#galaxyPlanets11 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets11 .empty a span.planetNumber {display: none;}
+#galaxyPlanets11 .planet span.planetNumber,
+#galaxyPlanets11 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets11 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets12///////////////////////////////*/
+
+#galaxyPlanets12 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets12 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets12 .planet1 {width: 70px;height: 70px;position: absolute;top: 100px;left:290px;}
+#galaxyPlanets12 .planet2 {width: 70px;height: 70px;position: absolute;top: 50px;left: 424px;}
+#galaxyPlanets12 .planet3 {width: 70px;height: 70px;position: absolute;top:  82px;left: 560px;}
+#galaxyPlanets12 .planet4 {width: 70px;height: 70px;position: absolute;top: 209px;left: 350px;}
+#galaxyPlanets12 .planet5 {width: 70px;height: 70px;position: absolute;top: 221px;left: 543px;}
+#galaxyPlanets12 .planet6 {width: 70px;height: 70px;position: absolute;top: 285px;left: 658px;}
+#galaxyPlanets12 .planet7 {width: 70px;height: 70px;position: absolute;top: 192px;left: 210px;}
+#galaxyPlanets12 .planet8 {width: 70px;height: 70px;position: absolute;top: 310px;left: 444px;}
+#galaxyPlanets12 .planet9 {width: 70px;height: 70px;position: absolute;top: 154px;left: 766px;}
+#galaxyPlanets12 .planet10 {width: 70px;height: 70px;position: absolute;top: 11px;left: 202px;}
+#galaxyPlanets12 .planet11 {width: 70px;height: 70px;position: absolute;top: 50px;left: 665px;}
+#galaxyPlanets12 .planet12 {width: 70px;height: 70px;position: absolute;top: 67px;left: 844px;}
+#galaxyPlanets12 .planet13 {width: 70px;height: 70px;position: absolute;top: 285px;left: 44px;}
+#galaxyPlanets12 .planet14 {width: 70px;height: 70px;position: absolute;top: 24px;left: 80px;}
+#galaxyPlanets12 .planet15 {width: 70px;height: 70px;position: absolute;top: 265px;left: 820px;}
+#galaxyPlanets12 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets12 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets12 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets12 .planet a,
+#galaxyPlanets12 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets12 .empty a span.planetNumber {display: none;}
+#galaxyPlanets12 .planet span.planetNumber,
+#galaxyPlanets12 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets12 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets13///////////////////////////////*/
+
+#galaxyPlanets13 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets13 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets13 .planet1 {width: 70px;height: 70px;position: absolute;top: 52px;left:429px;}
+#galaxyPlanets13 .planet2 {width: 70px;height: 70px;position: absolute;top: 160px;left: 290px;}
+#galaxyPlanets13 .planet3 {width: 70px;height: 70px;position: absolute;top:  40px;left: 313px;}
+#galaxyPlanets13 .planet4 {width: 70px;height: 70px;position: absolute;top: 127px;left: 535px;}
+#galaxyPlanets13 .planet5 {width: 70px;height: 70px;position: absolute;top: 225px;left: 410px;}
+#galaxyPlanets13 .planet6 {width: 70px;height: 70px;position: absolute;top: 290px;left: 210px;}
+#galaxyPlanets13 .planet7 {width: 70px;height: 70px;position: absolute;top: 200px;left: 120px;}
+#galaxyPlanets13 .planet8 {width: 70px;height: 70px;position: absolute;top: 222px;left: 670px;}
+#galaxyPlanets13 .planet9 {width: 70px;height: 70px;position: absolute;top: 0px;left: 190px;}
+#galaxyPlanets13 .planet10 {width: 70px;height: 70px;position: absolute;top: 325px;left: 490px;}
+#galaxyPlanets13 .planet11 {width: 70px;height: 70px;position: absolute;top: 210px;left: 825px;}
+#galaxyPlanets13 .planet12 {width: 70px;height: 70px;position: absolute;top: 45px;left: 675px;}
+#galaxyPlanets13 .planet13 {width: 70px;height: 70px;position: absolute;top: 52px;left: 798px;}
+#galaxyPlanets13 .planet14 {width: 70px;height: 70px;position: absolute;top: 220px;left: 22px;}
+#galaxyPlanets13 .planet15 {width: 70px;height: 70px;position: absolute;top: 71px;left: 38px;}
+#galaxyPlanets13 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets13 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets13 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets13 .planet a,
+#galaxyPlanets13 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets13 .empty a span.planetNumber {display: none;}
+#galaxyPlanets13 .planet span.planetNumber,
+#galaxyPlanets13 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets13 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets14///////////////////////////////*/
+
+#galaxyPlanets14 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets14 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets14 .planet1 {width: 70px;height: 70px;position: absolute;top: 132px;left:560px;}
+#galaxyPlanets14 .planet2 {width: 70px;height: 70px;position: absolute;top: 212px;left: 360px;}
+#galaxyPlanets14 .planet3 {width: 70px;height: 70px;position: absolute;top:  132px;left: 271px;}
+#galaxyPlanets14 .planet4 {width: 70px;height: 70px;position: absolute;top: 222px;left: 490px;}
+#galaxyPlanets14 .planet5 {width: 70px;height: 70px;position: absolute;top: 55px;left: 370px;}
+#galaxyPlanets14 .planet6 {width: 70px;height: 70px;position: absolute;top: 46px;left: 202px;}
+#galaxyPlanets14 .planet7 {width: 70px;height: 70px;position: absolute;top: 320px;left: 370px;}
+#galaxyPlanets14 .planet8 {width: 70px;height: 70px;position: absolute;top: 224px;left: 151px;}
+#galaxyPlanets14 .planet9 {width: 70px;height: 70px;position: absolute;top: 226px;left: 724px;}
+#galaxyPlanets14 .planet10 {width: 70px;height: 70px;position: absolute;top: 90px;left: 720px;}
+#galaxyPlanets14 .planet11 {width: 70px;height: 70px;position: absolute;top: 302px;left: 677px;}
+#galaxyPlanets14 .planet12 {width: 70px;height: 70px;position: absolute;top: 204px;left: 835px;}
+#galaxyPlanets14 .planet13 {width: 70px;height: 70px;position: absolute;top: 52px;left: 855px;}
+#galaxyPlanets14 .planet14 {width: 70px;height: 70px;position: absolute;top: 90px;left: 80px;}
+#galaxyPlanets14 .planet15 {width: 70px;height: 70px;position: absolute;top: 255px;left: 20px;}
+#galaxyPlanets14 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets14 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets14 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets14 .planet a,
+#galaxyPlanets14 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets14 .empty a span.planetNumber {display: none;}
+#galaxyPlanets14 .planet span.planetNumber,
+#galaxyPlanets14 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets14 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets15///////////////////////////////*/
+
+#galaxyPlanets15 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets15 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets15 .planet1 {width: 70px;height: 70px;position: absolute;top: 119px;left:558px;}
+#galaxyPlanets15 .planet2 {width: 70px;height: 70px;position: absolute;top: 215px;left: 414px;}
+#galaxyPlanets15 .planet3 {width: 70px;height: 70px;position: absolute;top:  152px;left: 328px;}
+#galaxyPlanets15 .planet4 {width: 70px;height: 70px;position: absolute;top: 217px;left: 515px;}
+#galaxyPlanets15 .planet5 {width: 70px;height: 70px;position: absolute;top: 59px;left: 391px;}
+#galaxyPlanets15 .planet6 {width: 70px;height: 70px;position: absolute;top: 08px;left: 510px;}
+#galaxyPlanets15 .planet7 {width: 70px;height: 70px;position: absolute;top: 324px;left: 468px;}
+#galaxyPlanets15 .planet8 {width: 70px;height: 70px;position: absolute;top: 45px;left: 270px;}
+#galaxyPlanets15 .planet9 {width: 70px;height: 70px;position: absolute;top: 226px;left: 152px;}
+#galaxyPlanets15 .planet10 {width: 70px;height: 70px;position: absolute;top: 110px;left: 753px;}
+#galaxyPlanets15 .planet11 {width: 70px;height: 70px;position: absolute;top: 361px;left: 335px;}
+#galaxyPlanets15 .planet12 {width: 70px;height: 70px;position: absolute;top: 60px;left: 90px;}
+#galaxyPlanets15 .planet13 {width: 70px;height: 70px;position: absolute;top: 355px;left: 800px;}
+#galaxyPlanets15 .planet14 {width: 70px;height: 70px;position: absolute;top: 261px;left: 18px;}
+#galaxyPlanets15 .planet15 {width: 70px;height: 70px;position: absolute;top: 12px;left: 876px;}
+#galaxyPlanets15 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets15 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets15 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets15 .planet a,
+#galaxyPlanets15 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets15 .empty a span.planetNumber {display: none;}
+#galaxyPlanets15 .planet span.planetNumber,
+#galaxyPlanets15 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets15 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+
+/*/////////////////////////////galaxyPlanets16///////////////////////////////*/
+
+#galaxyPlanets16 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets16 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets16 .planet1 {width: 70px;height: 70px;position: absolute;top: 199px;left:501px;}
+#galaxyPlanets16 .planet2 {width: 70px;height: 70px;position: absolute;top: 135px;left: 566px;}
+#galaxyPlanets16 .planet3 {width: 70px;height: 70px;position: absolute;top:  229px;left: 405px;}
+#galaxyPlanets16 .planet4 {width: 70px;height: 70px;position: absolute;top: 159px;left: 288px;}
+#galaxyPlanets16 .planet5 {width: 70px;height: 70px;position: absolute;top: 55px;left: 410px;}
+#galaxyPlanets16 .planet6 {width: 70px;height: 70px;position: absolute;top:5px;left: 592px;}
+#galaxyPlanets16 .planet7 {width: 70px;height: 70px;position: absolute;top: 292px;left: 780px;}
+#galaxyPlanets16 .planet8 {width: 70px;height: 70px;position: absolute;top: 99px;left: 770px;}
+#galaxyPlanets16 .planet9 {width: 70px;height: 70px;position: absolute;top: 327px;left: 395px;}
+#galaxyPlanets16 .planet10 {width: 70px;height: 70px;position: absolute;top: 11px;left: 185px;}
+#galaxyPlanets16 .planet11 {width: 70px;height: 70px;position: absolute;top: 363px;left: 190px;}
+#galaxyPlanets16 .planet12 {width: 70px;height: 70px;position: absolute;top: 172px;left: 62px;}
+#galaxyPlanets16 .planet13 {width: 70px;height: 70px;position: absolute;top: 10px;left: 827px;}
+#galaxyPlanets16 .planet14 {width: 70px;height: 70px;position: absolute;top: 241px;left: 859px;}
+#galaxyPlanets16 .planet15 {width: 70px;height: 70px;position: absolute;top: 41px;left: 20px;}
+#galaxyPlanets16 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets16 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets16 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets16 .planet a,
+#galaxyPlanets16 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets16 .empty a span.planetNumber {display: none;}
+#galaxyPlanets16 .planet span.planetNumber,
+#galaxyPlanets16 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets16 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets17///////////////////////////////*/
+
+#galaxyPlanets17 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets17 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets17 .planet1 {width: 70px;height: 70px;position: absolute;top: 260px;left:420px;}
+#galaxyPlanets17 .planet2 {width: 70px;height: 70px;position: absolute;top: 60px;left: 470px;}
+#galaxyPlanets17 .planet3 {width: 70px;height: 70px;position: absolute;top:  262px;left: 550px;}
+#galaxyPlanets17 .planet4 {width: 70px;height: 70px;position: absolute;top: 157px;left: 568px;}
+#galaxyPlanets17 .planet5 {width: 70px;height: 70px;position: absolute;top: 160px;left: 269px;}
+#galaxyPlanets17 .planet6 {width: 70px;height: 70px;position: absolute;top: 301px;left: 674px;}
+#galaxyPlanets17 .planet7 {width: 70px;height: 70px;position: absolute;top: 90px;left: 137px;}
+#galaxyPlanets17 .planet8 {width: 70px;height: 70px;position: absolute;top: 60px;left: 770px;}
+#galaxyPlanets17 .planet9 {width: 70px;height: 70px;position: absolute;top: 239px;left: 198px;}
+#galaxyPlanets17 .planet10 {width: 70px;height: 70px;position: absolute;top: 60px;left: 650px;}
+#galaxyPlanets17 .planet11 {width: 70px;height: 70px;position: absolute;top: 151px;left: 52px;}
+#galaxyPlanets17 .planet12 {width: 70px;height: 70px;position: absolute;top: 300px;left: 60px;}
+#galaxyPlanets17 .planet13 {width: 70px;height: 70px;position: absolute;top: 170px;left: 822px;}
+#galaxyPlanets17 .planet14 {width: 70px;height: 70px;position: absolute;top: 233px;left: 891px;}
+#galaxyPlanets17 .planet15 {width: 70px;height: 70px;position: absolute;top: 15px;left: 20px;}
+#galaxyPlanets17 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets17 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets17 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets17 .planet a,
+#galaxyPlanets17 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets17 .empty a span.planetNumber {display: none;}
+#galaxyPlanets17 .planet span.planetNumber,
+#galaxyPlanets17 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets17 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets18///////////////////////////////*/
+
+#galaxyPlanets18 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets18 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets18 .planet1 {width: 70px;height: 70px;position: absolute;top: 209px;left:315px;}
+#galaxyPlanets18 .planet2 {width: 70px;height: 70px;position: absolute;top: 60px;left: 400px;}
+#galaxyPlanets18 .planet3 {width: 70px;height: 70px;position: absolute;top:  144px;left: 564px;}
+#galaxyPlanets18 .planet4 {width: 70px;height: 70px;position: absolute;top: 90px;left: 290px;}
+#galaxyPlanets18 .planet5 {width: 70px;height: 70px;position: absolute;top: 245px;left: 481px;}
+#galaxyPlanets18 .planet6 {width: 70px;height: 70px;position: absolute;top: 156px;left: 177px;}
+#galaxyPlanets18 .planet7 {width: 70px;height: 70px;position: absolute;top: 18px;left: 201px;}
+#galaxyPlanets18 .planet8 {width: 70px;height: 70px;position: absolute;top: 315px;left: 410px;}
+#galaxyPlanets18 .planet9 {width: 70px;height: 70px;position: absolute;top: -10px;left: 605px;}
+#galaxyPlanets18 .planet10 {width: 70px;height: 70px;position: absolute;top: 185px;left: 750px;}
+#galaxyPlanets18 .planet11 {width: 70px;height: 70px;position: absolute;top: -10px;left: 100px;}
+#galaxyPlanets18 .planet12 {width: 70px;height: 70px;position: absolute;top: 300px;left: 775px;}
+#galaxyPlanets18 .planet13 {width: 70px;height: 70px;position: absolute;top: 305px;left: 30px;}
+#galaxyPlanets18 .planet14 {width: 70px;height: 70px;position: absolute;top: 90px;left: 880px;}
+#galaxyPlanets18 .planet15 {width: 70px;height: 70px;position: absolute;top: 145px;left: 20px;}
+#galaxyPlanets18 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets18 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets18 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets18 .planet a,
+#galaxyPlanets18 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets18 .empty a span.planetNumber {display: none;}
+#galaxyPlanets18 .planet span.planetNumber,
+#galaxyPlanets18 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets18 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets19///////////////////////////////*/
+
+#galaxyPlanets19 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets19 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets19 .planet1 {width: 70px;height: 70px;position: absolute;top: 180px;left:320px;}
+#galaxyPlanets19 .planet2 {width: 70px;height: 70px;position: absolute;top: 70px;left: 270px;}
+#galaxyPlanets19 .planet3 {width: 70px;height: 70px;position: absolute;top:  112px;left: 560px;}
+#galaxyPlanets19 .planet4 {width: 70px;height: 70px;position: absolute;top: 50px;left: 402px;}
+#galaxyPlanets19 .planet5 {width: 70px;height: 70px;position: absolute;top: 250px;left: 505px;}
+#galaxyPlanets19 .planet6 {width: 70px;height: 70px;position: absolute;top: 106px;left: 155px;}
+#galaxyPlanets19 .planet7 {width: 70px;height: 70px;position: absolute;top: -25px;left: 234px;}
+#galaxyPlanets19 .planet8 {width: 70px;height: 70px;position: absolute;top: 160px;left: 670px;}
+#galaxyPlanets19 .planet9 {width: 70px;height: 70px;position: absolute;top: 226px;left: 147px;}
+#galaxyPlanets19 .planet10 {width: 70px;height: 70px;position: absolute;top: 344px;left: 450px;}
+#galaxyPlanets19 .planet11 {width: 70px;height: 70px;position: absolute;top: 00px;left: 90px;}
+#galaxyPlanets19 .planet12 {width: 70px;height: 70px;position: absolute;top: 163px;left: 875px;}
+#galaxyPlanets19 .planet13 {width: 70px;height: 70px;position: absolute;top: 305px;left: 50px;}
+#galaxyPlanets19 .planet14 {width: 70px;height: 70px;position: absolute;top: 46px;left: 800px;}
+#galaxyPlanets19 .planet15 {width: 70px;height: 70px;position: absolute;top: 278px;left: 784px;}
+#galaxyPlanets19 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets19 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets19 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets19 .planet a,
+#galaxyPlanets19 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets19 .empty a span.planetNumber {display: none;}
+#galaxyPlanets19 .planet span.planetNumber,
+#galaxyPlanets19 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets19 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*/////////////////////////////galaxyPlanets20///////////////////////////////*/
+
+#galaxyPlanets20 {height: 500px;position: relative;margin: 70px 0;top: -30px;}
+#galaxyPlanets20 .sun {width: 180px;height: 180px;position: absolute;top: 159px;left: 405px;}
+#galaxyPlanets20 .planet1 {width: 70px;height: 70px;position: absolute;top: 90px;left:270px;}
+#galaxyPlanets20 .planet2 {width: 70px;height: 70px;position: absolute;top: 200px;left: 320px;}
+#galaxyPlanets20 .planet3 {width: 70px;height: 70px;position: absolute;top:  52px;left: 391px;}
+#galaxyPlanets20 .planet4 {width: 70px;height: 70px;position: absolute;top: 220px;left: 548px;}
+#galaxyPlanets20 .planet5 {width: 70px;height: 70px;position: absolute;top: 75px;left: 580px;}
+#galaxyPlanets20 .planet6 {width: 70px;height: 70px;position: absolute;top: -31px;left: 505px;}
+#galaxyPlanets20 .planet7 {width: 70px;height: 70px;position: absolute;top: 50px;left: 700px;}
+#galaxyPlanets20 .planet8 {width: 70px;height: 70px;position: absolute;top: 280px;left: 450px;}
+#galaxyPlanets20 .planet9 {width: 70px;height: 70px;position: absolute;top: 22px;left: 170px;}
+#galaxyPlanets20 .planet10 {width: 70px;height: 70px;position: absolute;top: 229px;left: 145px;}
+#galaxyPlanets20 .planet11 {width: 70px;height: 70px;position: absolute;top: -25px;left: 285px;}
+#galaxyPlanets20 .planet12 {width: 70px;height: 70px;position: absolute;top: 55px;left: 845px;}
+#galaxyPlanets20 .planet13 {width: 70px;height: 70px;position: absolute;top: 295px;left: 815px;}
+#galaxyPlanets20 .planet14 {width: 70px;height: 70px;position: absolute;top: 237px;left: 28px;}
+#galaxyPlanets20 .planet15 {width: 70px;height: 70px;position: absolute;top: 333px;left: 330px;}
+#galaxyPlanets20 .derbis {width: 10px;height: 30px;position: relative;top: -185px;left: -10px;}
+#galaxyPlanets20 .moon {width: 70px;height: 70px;position: relative;top: -15px;left: -10px;}
+#galaxyPlanets20 .username {width: 70px;height: 70px;position: relative;text-align: center;top: -35px;left: 0px;}
+#galaxyPlanets20 .planet a,
+#galaxyPlanets20 .empty a {display: block;cursor: pointer;text-decoration: none;width: 40px;height: 30px;position: relative;z-index: 5;}
+#galaxyPlanets20 .empty a span.planetNumber {display: none;}
+#galaxyPlanets20 .planet span.planetNumber,
+#galaxyPlanets20 .planet span.planetName {position: absolute;display: block;bottom: 60px;left: 20px;font-size: 11px;text-align: center;opacity: 0.5;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#galaxyPlanets20 .planet span.username {	font-size: 11px;	text-align: center;	opacity: 0.8;	border-radius: 5px;	-moz-border-radius: 5px;	-webkit-border-radius: 5px;	position: relative;	z-index: 5;}
+
+/*////////////////////////////////////////////////////////////////////*/
